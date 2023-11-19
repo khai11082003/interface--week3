@@ -1,0 +1,133 @@
+.Gateway{
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .button{
+            width: 181px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eec04087;
+            border-radius: 6px;
+            color: #ffffffcb;
+        }
+    }
+    .logo--position{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .SwapMain--title{
+        display: flex;
+        justify-content: center;
+        color: #EEC140;
+        font-size: 45px;
+        font-weight: bold;
+        span{
+            margin-left: 10px;
+        }
+    }
+    .position--button{
+        display: none;
+    }
+    .container{
+        margin-left: 10px;
+        .address{
+            font-size: 20px;
+            margin-top: 26px;
+        }
+        .input{
+            width: 352px;
+            height: 42px;
+            border: solid 1px #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 6px;
+            padding-left: 6px;
+            padding-right: 6px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            .icon--content{
+                display: flex;
+                align-items: center;
+                .next{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 5px;
+                }
+                .content{
+                    color: #ffffff8a;
+
+                }
+            }
+        }
+    }
+    .ul--conntainer{
+        background-color: #252525;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        .arrow--container{
+            display: flex;
+            flex-direction: row-reverse;
+            width: 96%;
+            svg{
+                width: 9px;
+                height: 9px;
+            }
+        }
+        .arrow--container--2{
+            width: 96%;
+            display: flex;
+            flex-direction: row-reverse;
+            svg{
+                transform: rotate(180deg);
+                width: 9px;
+                height: 9px;
+            }
+        }
+        ul{
+            width: 95%;
+            margin: 0px;
+            padding: 0px;
+
+            .box,.box3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 15px;
+                .dot{
+                   margin-right: 5px;
+                   display: flex;
+                   align-items: center;
+                   svg{
+                    width: 8px;
+                    height: 8px;
+                   }
+                }
+                .box-container{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 85%;
+                    font-size: 13px;
+                    align-items: center;
+                    li{
+                        font-size: 12px;
+                        display: flex;
+                        flex-direction: column;
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .box3{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

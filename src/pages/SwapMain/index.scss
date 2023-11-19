@@ -1,0 +1,100 @@
+.SwapMain{
+    .position--button,.back--to--home--text{
+        display: none;
+    }
+    .arrow--SwapMain--2{
+        transform: rotate(180deg);
+        width: 92%;
+        margin-top: 8px;
+    }
+    .arrow--SwapMain{
+        margin-top: 30px;
+
+        display: flex;
+        flex-direction: row-reverse;
+        width: 92%;
+                margin-bottom: 8px;
+
+    }
+    .cannot--token--text {
+    position: absolute;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EEC140;
+        span{
+            color: #0C95F8;
+        }
+    }
+    .logo--position{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .SwapMain--title{
+        display: flex;
+        justify-content: center;
+        color: #EEC140;
+        font-size: 45px;
+        font-weight: bold;
+        span{
+            margin-left: 10px;
+        }
+    }
+    .SwapMain__Button--Container{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .Button--container{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            .button{
+                width: 90px;
+                height: 36px;
+                border-radius: 8px;
+                background-color: #EEC140;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .SwapMain__content--container{
+            .Content{
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #EEC140;
+            border-bottom: 1px solid #EEC140 ;
+            padding: 15px 0px;
+            font-size: 20px;
+            .icon{
+                display: flex;
+                align-items: center;
+                margin-left: 20px;
+                width: 42%;
+                svg{
+                    margin-right: 5px;
+                }
+            }
+            .coinName{
+                margin-left: 20px;
+                width: 20%;
+            }
+            .elipse{
+                width: 20%;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                .remove{
+                    padding-right: 10px;
+                }
+            
+            }
+    }
+    }
+}

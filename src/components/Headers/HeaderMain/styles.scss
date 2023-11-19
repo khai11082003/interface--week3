@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  height: 53px;
+  background: #333333;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3px;
+  border-bottom: 1px solid #4343437a;
+  .logo--container {
+    padding: 10px 0 9px 6px;
+  }
+}
+.button--container {
+  .link{
+    color: #fff;
+  }
+  display: flex;
+  align-items: center;
+  .button--one, .button--two{
+    width: 105px;
+    height: 32px;
+    background-color: var(--text-black-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-right: 8px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .button--two{
+    list-style-type: none;
+  }
+}

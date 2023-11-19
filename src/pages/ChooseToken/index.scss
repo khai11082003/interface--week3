@@ -1,0 +1,81 @@
+.mainnav{
+    background-color: var(--background-color);
+    margin:20px 0px ;
+    padding: 10px 10px;
+    .input{
+        width: 335px;
+        height: 44px;
+        border-radius: 8px;
+        width: 100%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        #subinput{
+            background-color: var(--background-color);
+            border: none;
+            font-size: 20px;
+        }
+        #subinput:disabled{
+            border: none;
+        }
+    }
+    .des--container{
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        .text--container{
+            font-size: 13px;
+            color: #ECBF40;
+            span{
+                color: #0C95F8;
+            }
+        }
+        .arrow--container{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    .ul--conntainer{
+        display: flex;
+        justify-content: center;
+
+        margin-top: 10px;
+        .arrow--container--2{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-bottom: 10px;
+            svg{
+                transform: rotate(180deg);
+            }
+        }
+        ul{
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            .box{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                .dot{
+                   margin-right: 5px;
+                   margin-top:2px;
+                }
+                .box-container{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                    margin-bottom: 10px;
+                    li{
+                        font-size: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+.page{
+    .position--button{
+        display: none;}
+        .mainnav4{
+            padding: 10px 10px;
+            .title{
+                margin: 0px;
+            }
+            .opacity{
+                opacity: 0.5;
+                .send--container{
+                    .sendtitle--container{
+                        font-size: 20px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    .sendinput--container{
+                        padding: 10px 20px;
+                        border: 1px solid #fff;
+                        font-size: 13px;
+                        border-radius: 5px;
+                        margin-bottom: 10px;
+                    }
+                    .sendstatus--container{
+                        color: #00FF38;
+                        font-size: 11px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .disable--opacity{
+                .maintitle{
+                    font-size: 20px;
+                    color: #ECBF40;
+                    margin-bottom: 10px;
+                }
+                .subtitle{
+                    font-size: 16px;
+                    color: #C36027;
+                    margin-bottom: 6px;
+                }
+            }
+
+        }
+        .form--container{
+            background-color: #252525;
+            padding: 20px 15px;
+            border-radius: 10px;
+            margin-top: 28px;
+            .titleform--container{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            .contentform--container{
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
+            .contentform--container-2,.contentform--container-3{
+                width: 332px;
+                height: 42px;
+                border-radius: 10px;
+                border: solid 1px #fff;
+                margin-bottom: 30px;
+            }
+            .contentform--container-3{
+                padding-top:14px;
+                        padding-left: 10px;
+                        margin-bottom: 0px;
+
+            }
+            .status{
+                font-size: 11px;
+                color: #ff0000;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            .position--button{
+                display: flex;
+                justify-content: center;
+                .buttonform--container{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 83%;
+                    .cancelform,.confirmform{
+                        width: 120px;
+                        height: 36px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #0C95F8;
+                        border-radius: 15px;
+                        font-size: 15px;
+                    }
+                    .cancelform{
+                        background-color: #25252500;
+                        border: 1px solid #0C95F8;
+                    }
+                }
+            }
+        }
+}

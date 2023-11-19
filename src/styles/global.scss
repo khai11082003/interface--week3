@@ -1,0 +1,14 @@
+html,
+body,
+#root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.title{
+  font-size: 30px;
+  color: #ECBF40;
+  margin-left: 9px;
+  margin-top: 20px;
+  font-weight: bold;
+}
